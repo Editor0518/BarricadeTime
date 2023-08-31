@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7806607502904744626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7806607502904744624}
+  - component: {fileID: 7806607502904744627}
+  m_Layer: 0
+  m_Name: "\uC5B8\uB8604"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7806607502904744624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607502904744626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7806607502904744627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607502904744626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11884428f53faab488c93ef296be78a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c_name: "\uC548\uB0B4\uC790 \uCF69\uBE0C\uD398\uB974"
+  c_cmd: Com
+  content: "\uC6B0\uB9AC \uC2E0\uBB38\uC5D0 \uC0AC\uD68C\uB97C \uD48D\uC790\uD558\uB294
+    \uADF8\uB9BC\uC744 \uC2E4\uC5B4\uBCF4\uBA74 \uC5B4\uB5A8\uAE4C? \uAE00\uC744
+    \uC77D\uC9C0 \uBABB\uD558\uB294 \uC0AC\uB78C\uB4E4\uB3C4 \uC6B0\uB9AC\uC758 \uB73B\uC744
+    \uC774\uD574\uD560 \uC218 \uC788\uC744\uAC70\uC57C.\r"
+  dateToSet: 
+  seToPlay: {fileID: 0}
+  vceToPlay: {fileID: 0}
+  bgmToChange: {fileID: 0}
+  choiceA: "\uC88B\uC544."
+  passionA: 0
+  peopleA: 15
+  gunA: 0
+  moneyA: -10
+  daysAddA: 0
+  etcA: 
+  nextCardA: {fileID: 0}
+  choiceB: "\uBCC4\uB85C."
+  passionB: 0
+  peopleB: 0
+  gunB: 0
+  moneyB: 0
+  daysAddB: 0
+  etcB: 
+  nextCardB: {fileID: 0}

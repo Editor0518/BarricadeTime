@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7806607502904744626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7806607502904744624}
+  - component: {fileID: 7806607502904744627}
+  m_Layer: 0
+  m_Name: "\uC790\uAE08max"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7806607502904744624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607502904744626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7806607503180148093}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7806607502904744627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607502904744626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11884428f53faab488c93ef296be78a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c_name: ???
+  c_cmd: 
+  content: "\uC559\uC878\uB77C! \uB3C4\uB9DD\uCCD0! \uACBD\uCC30\uB4E4\uC774 \uB4E4\uC774\uB2E5\uCCE4\uC5B4! "
+  dateToSet: 
+  seToPlay: {fileID: 0}
+  vceToPlay: {fileID: 0}
+  bgmToChange: {fileID: 0}
+  choiceA: "\uBB34\uC2A8\u2026!"
+  passionA: 0
+  peopleA: 0
+  gunA: 0
+  moneyA: 0
+  daysAddA: 0
+  etcA: 
+  nextCardA: {fileID: 0}
+  choiceB: 
+  passionB: 0
+  peopleB: 0
+  gunB: 0
+  moneyB: 0
+  daysAddB: 0
+  etcB: 
+  nextCardB: {fileID: 0}
+--- !u!1 &7806607503180148092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7806607503180148093}
+  - component: {fileID: 7806607503180148090}
+  m_Layer: 0
+  m_Name: ChoiceA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7806607503180148093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607503180148092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7806607502904744624}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7806607503180148090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607503180148092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11884428f53faab488c93ef296be78a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c_name: 
+  c_cmd: 
+  content: "\uAC11\uC791\uC2A4\uB808 \uCD95\uC801\uB41C \uBD80\uB97C \uC758\uC2EC\uD55C
+    \uACBD\uCC30\uC740 \uC544\uBCA0\uC384\uC758 \uBC97\uB4E4\uC744 \uD5A5\uD574 \uC870\uC0AC\uB97C
+    \uC2DC\uC791\uD588\uB2E4. \uADF8 \uACB0\uACFC, \uADF8\uB4E4\uC740 \uC6B0\uB9AC\uAC00
+    \uD601\uBA85\uAD70\uC784\uC744 \uAE68\uB2EB\uACE0 \uBAA8\uB450 \uCCB4\uD3EC\uD588\uB2E4.\r\n"
+  dateToSet: 
+  seToPlay: {fileID: 0}
+  vceToPlay: {fileID: 0}
+  bgmToChange: {fileID: 0}
+  choiceA: ...
+  passionA: 0
+  peopleA: 0
+  gunA: 0
+  moneyA: 0
+  daysAddA: 0
+  etcA: reset
+  nextCardA: {fileID: 0}
+  choiceB: 
+  passionB: 0
+  peopleB: 0
+  gunB: 0
+  moneyB: 0
+  daysAddB: 0
+  etcB: reset
+  nextCardB: {fileID: 0}

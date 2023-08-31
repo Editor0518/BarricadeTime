@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7806607502904744626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7806607502904744624}
+  - component: {fileID: 7806607502904744627}
+  m_Layer: 0
+  m_Name: "\uC5B8\uB8601"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7806607502904744624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607502904744626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7806607502904744627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806607502904744626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11884428f53faab488c93ef296be78a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c_name: "\uC548\uB0B4\uC790 \uCF69\uBE0C\uD398\uB974"
+  c_cmd: Com
+  content: "\uD601\uBA85\uC758 \uC911\uC694\uC131\uC744 \uC54C\uB9AC\uB294 \uC2E0\uBB38\uC744
+    \uBC1C\uD589\uD558\uB294 \uAC8C \uC5B4\uB54C? \uB354 \uB9CE\uC740 \uC9C0\uC2DD\uC778\uB4E4\uC774
+    \uB3D9\uCC38\uD560 \uC218 \uC788\uC744 \uAC70\uC57C.\r\n"
+  dateToSet: 
+  seToPlay: {fileID: 0}
+  vceToPlay: {fileID: 0}
+  bgmToChange: {fileID: 0}
+  choiceA: "\uC88B\uC544."
+  passionA: 0
+  peopleA: 10
+  gunA: 0
+  moneyA: -7
+  daysAddA: 0
+  etcA: 
+  nextCardA: {fileID: 7806607502904744626, guid: b84b3b1f2cb21f04e92d0fd8fcf44cba, type: 3}
+  choiceB: "\uB108\uBB34 \uC704\uD5D8\uD574. "
+  passionB: 0
+  peopleB: -5
+  gunB: 0
+  moneyB: 0
+  daysAddB: 0
+  etcB: 
+  nextCardB: {fileID: 0}

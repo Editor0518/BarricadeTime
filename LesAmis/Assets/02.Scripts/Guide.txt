@@ -1,0 +1,17 @@
+<캐릭터 스탠딩 코드>
+Enj=Enjolras 앙졸라
+R=Grantaire 그랑테르
+Com=Combeferre 콩브페르
+Courf=Courfeyrac 쿠르페락
+Joly=Joly 졸리
+Fly=Feuilly 푀이
+Bah=Bahorel 바호렐
+Bos=Bossuet(Lesgle) 보쉬에(레글)
+Jeh=Jean "Jehan" Prouvaire 즈앙
+
+Mar=Marius 마리우스
+Gav=Gavroche 가브로슈
+Epo=Eponine 에포닌
+Jvj=Jean Valjean 장 발장
+Jav=Javert 자베르
+
