@@ -59,6 +59,8 @@ public class StackList : MonoBehaviour
         else if (Name.Equals("장발장")) {str[0] = "Jean Valjean/"; str[1] = "장 발장 --> 마들렌 시장 --> 르블랑 씨 --> 윌팀 포슐르방"; }
         else if (Name.Equals("x")) {str[0] = "X/"; str[1] = "엑스의 쿠구르드 결사 단체"; }
         else if (Name.Equals("에포닌")) {str[0] = "Eponine/"; str[1] = "에포닌 테나르디에"; }
+        else if (Name.Equals("프롤로그")) {str[0] = "Prologue/"; str[1] = "0회차"; }
+        else if (Name.Equals("혁명준비")) {str[0] = "OnPlanning/"; str[1] = "혁명 준비 단계"; }
 
         return str;
     }
@@ -106,6 +108,27 @@ public class StackList : MonoBehaviour
             }
         }
 
+    }
+
+    public void AddLoadStackPath(string name) {
+        name=AddStackPath(name);
+        LoadStack(name);
+    }
+
+    public string AddStackPath(string name) {
+        string[] str = ReturnPathName(name);
+        //str[0] = str[0].Replace("/", "");
+        StacksPaths.Add(str[0]);
+        return str[0];
+    }
+
+    public void DelStackPath(string name) {
+        string[] str = ReturnPathName(name);
+        //str[0] = str[0].Replace("/", "");
+        //StacksPaths.Remove(str[0]);
+        for (int i = 0; i < StacksPaths.Count; i++) {
+            if (StacksPaths[i].Equals(str[0])) StacksPaths.RemoveAt(i);
+        }
     }
 
 

@@ -132,7 +132,8 @@ MonoBehaviour:
   gunA: 0
   moneyA: 0
   daysAddA: 0
-  etcA: "anim_bloodoff, anim_longblackfade, reset, get_Death.\uD504\uB864\uB85C\uADF8"
+  etcA: "anim_bloodoff, anim_longblackfade, reset, stackdel_\uD504\uB864\uB85C\uADF8,
+    stackaddload_\uD601\uBA85\uC900\uBE44, get_Death.\uD504\uB864\uB85C\uADF8"
   nextCardA: {fileID: 7806607502904744626, guid: 2e272d4129f11aa4ca3ec40685593dc8, type: 3}
   choiceB: 
   passionB: 0
@@ -140,7 +141,8 @@ MonoBehaviour:
   gunB: 0
   moneyB: 0
   daysAddB: 0
-  etcB: "anim_bloodoff, anim_longblackfade, reset, get_Death.\uD504\uB864\uB85C\uADF8"
+  etcB: "anim_bloodoff, anim_longblackfade, reset, stackdel_\uD504\uB864\uB85C\uADF8,
+    stackaddload_\uD601\uBA85\uC900\uBE44, get_Death.\uD504\uB864\uB85C\uADF8"
   nextCardB: {fileID: 7806607502904744626, guid: 2e272d4129f11aa4ca3ec40685593dc8, type: 3}
 --- !u!1 &7806607503180148092
 GameObject:

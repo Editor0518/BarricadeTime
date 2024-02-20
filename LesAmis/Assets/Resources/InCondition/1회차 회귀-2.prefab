@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11884428f53faab488c93ef296be78a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  c_name: 
+  c_name: "\uC124\uBA85"
   c_cmd: 
   content: "\uAE68\uB2EC\uC740 \uC21C\uAC04 \uAC11\uC790\uAE30 \uBA38\uB9AC\uAC00
     \uC9C0\uB048\uAC70\uB9AC\uBA70 \uB450 \uB208\uC774 \uC544\uD30C\uC654\uB2E4.

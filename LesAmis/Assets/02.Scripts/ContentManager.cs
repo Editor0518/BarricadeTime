@@ -229,8 +229,10 @@ public class ContentManager : MonoBehaviour
         
         string[] cmd = etc.Split(", ");
 
-        for (int i = 0; i < cmd.Length; i++) {
-            if (cmd[i].Contains("&")) {
+        for (int i = 0; i < cmd.Length; i++)
+        {
+            if (cmd[i].Contains("&"))
+            {
                 string strCmd = cmd[i];
                 strCmd = strCmd.Substring(1);
 
@@ -243,8 +245,9 @@ public class ContentManager : MonoBehaviour
             cmd[i] = cmd[i].ToLower();
 
 
-            if (cmd[i].Contains("get_story")) {
-                
+            if (cmd[i].Contains("get_story"))
+            {
+
             }
 
             if (cmd[i].Contains("get_death"))
@@ -279,12 +282,31 @@ public class ContentManager : MonoBehaviour
                 panel.SetActive(true);
 
             }
-            else if (cmd[i].Contains("newcard_")) {
+            else if (cmd[i].Contains("newcard_"))
+            {
                 string[] str = cmd[i].Split("_");
                 stack.AddNewCards(str[1]);
             }
-
-
+            else if (cmd[i].Contains("stackdel_"))
+            {
+                string[] str = cmd[i].Split("_");
+                stack.DelStackPath(str[1]);
+                stack.ResetAll();
+                stack.LoadAll();
+                Debug.Log("삭제완" + str[1]);
+            }
+            else if (cmd[i].Contains("stackaddload_"))
+            {
+                string[] str = cmd[i].Split("_");
+                stack.AddLoadStackPath(str[1]);
+                Debug.Log("추가완" + str[1]);
+            }
+            else if (cmd[i].Contains("stackadd_"))
+            {
+                string[] str = cmd[i].Split("_");
+                stack.AddStackPath(str[1]);
+                Debug.Log("추가완" + str[1]);
+            }
         }
 
     }
@@ -360,6 +382,7 @@ public class ContentManager : MonoBehaviour
         if (c_name.Equals("설명")) {
             explainTxt.text = content;
             contentTxt.text = "";
+            nameTxt.text = "";
         }
         else {
             contentTxt.text = content;

@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11884428f53faab488c93ef296be78a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  c_name: 
-  c_cmd: "on_memory.\uC0DD\uC77C"
+  c_name: "\uC124\uBA85"
+  c_cmd: "on_memory.\uC548\uACBD"
   content: "\uCF69\uBE0C\uD398\uB974\uB294 \uACB0\uAD6D \uC548\uACBD\uC744 \uCC3E\uC9C0
     \uBABB\uD588\uB2E4. \uB2E4\uD589\uD788\uB3C4 \uADF8\uB294 \uB2E4\uC74C\uB0A0
     \uC548\uACBD\uC744 \uCC3E\uC544\uC654\uB2E4. \uD611\uD0C1\uC5D0 \uC788\uC5C8\uB2E4\uACE0

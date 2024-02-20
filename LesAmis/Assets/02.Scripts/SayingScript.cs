@@ -30,7 +30,7 @@ public class SayingScript : MonoBehaviour
     public int moneyA = 0;//영향 줄 자금
 
     public int daysAddA = 0;//더할 날짜
-    [TextArea(1, 2)] public string etcA;//그외 커맨드 (예: 사망, 술 취함 등)
+    [TextArea(1, 5)] public string etcA;//그외 커맨드 (예: 사망, 술 취함 등)
     public GameObject nextCardA;
 
     [Header("B")]
@@ -44,7 +44,7 @@ public class SayingScript : MonoBehaviour
     [Range(-100, 100)]
     public int moneyB = 0;
     public float daysAddB = 0;
-    [TextArea(1,2)] public string etcB;
+    [TextArea(1,5)] public string etcB;
     public GameObject nextCardB;
 
 }

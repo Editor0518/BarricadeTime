@@ -47,8 +47,8 @@ MonoBehaviour:
   c_name: "\uB098"
   c_cmd: ENJ
   content: "\uB3D9\uC9C0\uB4E4, \uAE34\uC7A5\uC744 \uB2A6\uCD94\uC9C0 \uB9D9\uC2DC\uB2E4.
-    \uC9C0\uAE08\uC740 \uC7A0\uC7A0\uD558\uC9C0\uB9CC <br>\uC815\uBD80\uAD70\uC774
-    \uC5B8\uC81C \uB2E4\uC2DC \uACF5\uACA9\uD560\uC9C0 \uBAB0\uB77C\uC694. "
+    \uC9C0\uAE08\uC740 \uC7A0\uC7A0\uD558\uC9C0\uB9CC \uC815\uBD80\uAD70\uC774 \uC5B8\uC81C
+    \uB2E4\uC2DC \uACF5\uACA9\uD560\uC9C0 \uBAB0\uB77C\uC694. "
   dateToSet: 
   seToPlay: {fileID: 0}
   vceToPlay: {fileID: 0}
@@ -129,7 +129,7 @@ MonoBehaviour:
   gunA: 0
   moneyA: 0
   daysAddA: 0
-  etcA: "get_memory.\uC0DD\uC77C"
+  etcA: 
   nextCardA: {fileID: 4202048675281704472}
   choiceB: "\uAC00\uC790"
   passionB: 0
@@ -137,5 +137,5 @@ MonoBehaviour:
   gunB: 0
   moneyB: 0
   daysAddB: 0
-  etcB: "get_memory.\uC0DD\uC77C"
+  etcB: 
   nextCardB: {fileID: 4202048675281704472}
